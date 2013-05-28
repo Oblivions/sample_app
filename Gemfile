@@ -22,13 +22,14 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'therubyracer'
-gem 'jquery-rails', '2.0.2'
+  gem 'therubyracer'
+  gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
-gem 'rb-inotify', '0.9'
+  gem 'rb-inotify', '0.9'
   gem 'libnotify', '0.5.9'
+  gem 'factory_girl_rails', '4.2.1'
   # System-dependent gems
 end
 
